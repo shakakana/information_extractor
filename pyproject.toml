@@ -1,0 +1,16 @@
+[project]
+name = "information_extractor" 
+version = "0.1.0"
+description = "Python project"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.104.1",
+    "uvicorn[standard]>=0.24.0",
+    "sqlalchemy>=2.0.23",
+    "loguru>=0.7.2",
+    "pydantic>=2.5.0",
+    "pydantic-settings>=2.1.0",
+    "pytest>=8.4.2",
+    "docling>=2.54.0",
+]
